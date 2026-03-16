@@ -6,8 +6,48 @@ NeuralCore provides a PyTorch-inspired API with tensors, automatic differentiati
 
 ---
 
+## Why NeuralCore?
+
+NeuralCore isn't trying to replace PyTorch or TensorFlow — those frameworks have thousands of engineers, GPU backends, and massive ecosystems. NeuralCore exists for different reasons, and in those areas, it genuinely shines.
+
+### What Makes It Unique
+
+- **Zero dependencies** — PyTorch needs Python, CUDA, cuDNN, MKL, and more. NeuralCore compiles with just a C++ compiler and CMake. Nothing else. That's exceptionally rare for a framework with autograd, optimizers, and a data pipeline.
+
+- **Fully transparent** — Every line of the autograd engine, every optimizer step, every backward pass is code you can read and understand. Production frameworks have millions of lines of opaque code. NeuralCore has ~3,000 lines total.
+
+- **Embeddable** — Because it's a single static library (`.lib` / `.a`) with no external dependencies, it can be dropped into any C++ application — games, robotics, IoT devices, embedded systems — without dragging in Python or a massive runtime.
+
+- **Educationally complete** — Most "build ML from scratch" tutorials stop at a basic neural net with manual backprop. NeuralCore has a full dynamic computation graph, N-dimensional broadcasting, 3 production-grade optimizers, a DataLoader with batching and shuffling, model serialization, and proper module abstractions. It's a real framework, not a toy.
+
+- **Builds in seconds** — No waiting 30+ minutes for a massive dependency tree. Configure and build in under 10 seconds.
+
+### Honest Comparison
+
+| | NeuralCore | PyTorch / TensorFlow |
+|---|---|---|
+| GPU support | ❌ | ✅ |
+| Ecosystem & community | ❌ | ✅ |
+| Performance at scale | ❌ | ✅ |
+| Pre-trained models | ❌ | ✅ |
+| Zero external dependencies | ✅ | ❌ |
+| Full code transparency | ✅ | ❌ |
+| Embeddable in any C++ app | ✅ | Difficult |
+| Build time | ~5 seconds | Minutes to hours |
+| Learning & teaching tool | ✅ | ❌ |
+| Single-file debuggable | ✅ | ❌ |
+
+### The Real Value
+
+The true differentiator is **understanding**. If someone asks "how does automatic differentiation work?", you don't point to a research paper — you point to your `autograd.cpp`. If someone asks "what does Adam actually do each step?", you open `adam.cpp` and read 30 lines of clear C++.
+
+That level of understanding is worth more than any feature list. Frameworks are tools; understanding is power.
+
+---
+
 ## Table of Contents
 
+- [Why NeuralCore?](#why-neuralcore)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Getting Started](#getting-started)
