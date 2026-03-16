@@ -1,0 +1,10 @@
+^C:\FRAMEWORKS\OWN_ML\BUILD\CMAKEFILES\3B5CE5EAE64D598E786BC385E6A71FD3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Frameworks/own_ml -BC:/Frameworks/own_ml/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Frameworks/own_ml/build/NeuralCore.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
