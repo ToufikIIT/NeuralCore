@@ -1,5 +1,5 @@
-test_autograd 1 1.24248
-test_nn 1 0.894104
-test_optim 1 0.722201
-test_tensor 1 0.555009
+test_autograd 2 0.0143685
+test_nn 2 0.015562
+test_optim 2 0.0656833
+test_tensor 2 0.0128367
 ---

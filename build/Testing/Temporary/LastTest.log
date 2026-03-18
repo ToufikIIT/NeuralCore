@@ -1,10 +1,10 @@
-Start testing: Mar 18 10:08 India Standard Time
+Start testing: Mar 18 10:14 India Standard Time
 ----------------------------------------------------------
 1/4 Testing: test_autograd
 1/4 Test: test_autograd
 Command: "C:/Frameworks/own_ml/build/Debug/test_autograd.exe"
 Directory: C:/Frameworks/own_ml/build
-"test_autograd" start time: Mar 18 10:08 India Standard Time
+"test_autograd" start time: Mar 18 10:14 India Standard Time
 Output:
 ----------------------------------------------------------
 === Autograd Tests ===
@@ -23,18 +23,18 @@ Output:
 
 All autograd tests passed!
 <end of output>
-Test time =   1.24 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"test_autograd" end time: Mar 18 10:08 India Standard Time
-"test_autograd" time elapsed: 00:00:01
+"test_autograd" end time: Mar 18 10:14 India Standard Time
+"test_autograd" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 2/4 Testing: test_nn
 2/4 Test: test_nn
 Command: "C:/Frameworks/own_ml/build/Debug/test_nn.exe"
 Directory: C:/Frameworks/own_ml/build
-"test_nn" start time: Mar 18 10:08 India Standard Time
+"test_nn" start time: Mar 18 10:14 India Standard Time
 Output:
 ----------------------------------------------------------
 === NN Module Tests ===
@@ -48,10 +48,10 @@ Output:
 
 All NN module tests passed!
 <end of output>
-Test time =   0.89 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"test_nn" end time: Mar 18 10:08 India Standard Time
+"test_nn" end time: Mar 18 10:14 India Standard Time
 "test_nn" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -59,21 +59,21 @@ Test Passed.
 3/4 Test: test_optim
 Command: "C:/Frameworks/own_ml/build/Debug/test_optim.exe"
 Directory: C:/Frameworks/own_ml/build
-"test_optim" start time: Mar 18 10:08 India Standard Time
+"test_optim" start time: Mar 18 10:14 India Standard Time
 Output:
 ----------------------------------------------------------
 === Optimizer Tests ===
-  SGD: 54.9476 -> 0.0628044 [PASS]
-  SGD+Momentum: 95.0227 -> 0.00151266 [PASS]
-  Adam: 58.6405 -> 19.3153 [PASS]
-  RMSProp: 25.7308 -> 0.430939 [PASS]
+  SGD: 0.571762 -> 0.000653512 [PASS]
+  SGD+Momentum: 101.958 -> 0.00162303 [PASS]
+  Adam: 13.8896 -> 0.913556 [PASS]
+  RMSProp: 33.6183 -> 0.876642 [PASS]
 
 All optimizer tests passed!
 <end of output>
-Test time =   0.72 sec
+Test time =   0.13 sec
 ----------------------------------------------------------
 Test Passed.
-"test_optim" end time: Mar 18 10:08 India Standard Time
+"test_optim" end time: Mar 18 10:14 India Standard Time
 "test_optim" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -81,7 +81,7 @@ Test Passed.
 4/4 Test: test_tensor
 Command: "C:/Frameworks/own_ml/build/Debug/test_tensor.exe"
 Directory: C:/Frameworks/own_ml/build
-"test_tensor" start time: Mar 18 10:08 India Standard Time
+"test_tensor" start time: Mar 18 10:14 India Standard Time
 Output:
 ----------------------------------------------------------
 === Tensor Tests ===
@@ -99,11 +99,11 @@ Output:
 
 All tensor tests passed!
 <end of output>
-Test time =   0.56 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"test_tensor" end time: Mar 18 10:08 India Standard Time
+"test_tensor" end time: Mar 18 10:14 India Standard Time
 "test_tensor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 18 10:08 India Standard Time
+End testing: Mar 18 10:14 India Standard Time
