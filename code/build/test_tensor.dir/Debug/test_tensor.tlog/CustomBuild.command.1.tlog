@@ -1,0 +1,10 @@
+^C:\FRAMEWORKS\OWN_ML\CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Frameworks/own_ml/code -BC:/Frameworks/own_ml/code/build --check-stamp-file C:/Frameworks/own_ml/code/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

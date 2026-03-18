@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Frameworks/own_ml/code/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

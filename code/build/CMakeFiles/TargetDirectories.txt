@@ -1,0 +1,9 @@
+C:/Frameworks/own_ml/code/build/CMakeFiles/neuralcore.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/test_autograd.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/test_nn.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/test_optim.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/test_tensor.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/xor.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/RUN_TESTS.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/ALL_BUILD.dir
+C:/Frameworks/own_ml/code/build/CMakeFiles/ZERO_CHECK.dir

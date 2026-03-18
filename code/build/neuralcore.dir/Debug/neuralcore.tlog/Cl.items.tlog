@@ -1,0 +1,15 @@
+C:\Frameworks\own_ml\code\src\autograd.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\autograd.obj
+C:\Frameworks\own_ml\code\src\data\dataloader.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\dataloader.obj
+C:\Frameworks\own_ml\code\src\data\dataset.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\dataset.obj
+C:\Frameworks\own_ml\code\src\nn\activation.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\activation.obj
+C:\Frameworks\own_ml\code\src\nn\dropout.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\dropout.obj
+C:\Frameworks\own_ml\code\src\nn\linear.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\linear.obj
+C:\Frameworks\own_ml\code\src\nn\loss.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\loss.obj
+C:\Frameworks\own_ml\code\src\nn\module.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\module.obj
+C:\Frameworks\own_ml\code\src\nn\sequential.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\sequential.obj
+C:\Frameworks\own_ml\code\src\ops.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\ops.obj
+C:\Frameworks\own_ml\code\src\optim\adam.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\adam.obj
+C:\Frameworks\own_ml\code\src\optim\rmsprop.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\rmsprop.obj
+C:\Frameworks\own_ml\code\src\optim\sgd.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\sgd.obj
+C:\Frameworks\own_ml\code\src\serialization.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\serialization.obj
+C:\Frameworks\own_ml\code\src\tensor.cpp;C:\Frameworks\own_ml\code\build\neuralcore.dir\Debug\tensor.obj
